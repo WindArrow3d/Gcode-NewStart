@@ -42,7 +42,7 @@ Gcode NewStart is a script that is manually run by the user. It asks for some us
 * DON'T REMOVE THE PRINT FROM THE BED  
 * DON’T RE-HOME THE AXES  
 * If you need to clear a clog or change the nozzle, this is the time to do it. You need to be extremely careful not to upset the axes' positions or the print. If either of those things happen, Gcode NewStart won't work and could potentially cause the print head to collide with the print or the hard limits of the axes. Feel free to set the nozzle temperature to what you need to clear the clog.  
-* Go to your computer and open Gcode NewStart.  
+* Go to your computer and run Gcode_NewStart_Cura_Orca_Prusa_V9.exe.  
 * Select the exact gcode file that was printing, when prompted with the file explorer window titled: “Select the original G-code file”.  
 * Enter the desired Nozzle temperature (C), desired Bed temperature (C), desired Part Cooling Fan speed (%), if you would like to load the bed mesh from memory (y/n), and Pre-Purge amount (mm).
 	* A note about Pre-Purge:  
