@@ -53,7 +53,7 @@ Gcode NewStart is a script that is manually run by the user. It asks for some us
 	* The layer you want to select is NOT the layer you measured. You need to select the layer above the layer you measured.  
 		* Example: You measured the height of the print to be 10mm.  
 		* You find the layer # with a z height of 10mm (or as close as possible) from the list of available layers in the application, and select the next layer higher.  
-		* Let’s say you locate layer 50 with a height of 10mm. You’ll need to select the next layer: layer 51 with a height of 10.2mm (assuming our example used a 0.2mm layer height).  
+		* Let’s say you locate layer 50 with a height of 10mm. You’ll need to select the next layer (layer 51) with a height of 10.2mm (assuming our example used a 0.2mm layer height).  
 * Once you’ve selected the correct layer number check box, press the ok button and the new file will be created and placed in the same location as the original gcode file.  
 * Prep the file to be uploaded, but don’t start the print yet (chose the method you normally use):  
 	* SD card:  
